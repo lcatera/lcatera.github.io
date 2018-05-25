@@ -1,0 +1,78 @@
+header	{
+	background-color: black;
+}
+
+h1	{
+	font-family: fantasy;
+	color: #ffff6a;
+	font-size: 3.5em;
+	text-align: center;
+}
+
+
+/*Navigation Links go here if you want them */
+
+body	{
+	background-color: black;
+	font-family: fantasy;
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+
+}
+
+img	{
+	float: center;
+	width: 350px;
+	height: 350px;
+	margin: 15px 400px 15px 400px;
+	size: 100%;
+
+}
+
+
+
+img:hover	{
+	transform: scale(1.1);
+
+}
+
+h3	{
+	font-family: fantasy;
+	font-size: 1.5em;
+	border-bottom:	2px solid white;
+	border-right: 2px solid white;
+	
+	text-align: center;
+	box-shadow: 5px 4px 5px #888888;
+}
+
+
+.container 	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.btn-danger	{
+	background-color: solid pink;
+	font-family: fantasy;
+}
+
+.btn-danger:hover	{
+	background-color: yellow;
+	color: red;
+	transform: scale(2.0);
+}
+
+
+
+
+
+
